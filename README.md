@@ -30,5 +30,5 @@ The Code has been tested on a Vellemann Arduino Uno Rev3 Board, yet other Atmega
 It makes sense that one builds a "shield" for contacting
 - the driver board(2PH64011R) for the stepper motor (In1(blue) - Pin4, In2(pink) - Pin5, In3(yellow) - Pin6, In4(orange) - Pin7; +5V to VCC (5V), -Pin to GND
 - the Dallas 18B20 digital temperature sensor; use the one with cable and metal casing to stick onto primary mirror or tube; connect to Pin3 as well as VCC (3.3V or 5V) and GND of Arduino
-- optional: bluetooth dongle (f.e. HC-06) to be connected to RX and TX as well as VCC(3.3V) and GND of the Arduino; you can't use USB data conenction with Bluetooth connected as well
-- Case: I will put a couple of STL files and FreeCAD files to be used as an "application" example
+- optional: bluetooth dongle (f.e. HC-06) to be connected to RX and TX as well as VCC(3.3V) and GND of the Arduino; you can't use USB data conenction with Bluetooth dongle connected as well; I made myself a pair of jumpers to be able to disconnect the HC-06
+- Case: I will put a couple of STL files and FreeCAD files in the directory to be used as an "application" example; feel free to use or modify as needed
